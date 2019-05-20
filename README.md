@@ -8,7 +8,7 @@
 # JGrowing
 Java is Growing up but not only Java。Java成长路线，但学到的不仅仅是JAVA。
 ## 维护人员（排名不分先后）
-@[林大塔](https://github.com/data-lin), @[lzx2005](https://github.com/lzx2005)
+@[林大塔](https://github.com/data-lin), @[lzx2005](https://github.com/lzx2005),@[TGhoul](https://github.com/TGhoul),@[crossoverJie](https://github.com/crossoverJie),@[zhangyd-c](https://github.com/zhangyd-c)，@[ygmyth](https://github.com/ygmyth)，@[kinglaw1204](https://github.com/kinglaw1204),@[easepan](https://github.com/easepan),@[xuyuji](https://github.com/xuyuji)
 
 ## 缘起
 时常有一些朋友问起一个Java程序员到底应该怎么学习？公司的项目对自己没啥帮助，到底应该怎么提升？这些问题想必对很多人都是一个通病，包括我自己也是。所以我对于这些问题通常只能基于自己的眼界进行答复，也不知道这些东西对于他们是否有效。
@@ -32,10 +32,14 @@ JGrowing不是属于某个人的项目，而是属于组织项目。我的想法
 ### 2.2算法
 ## 3. [Java基础](https://github.com/javagrowing/JGrowing/tree/master/Java%E5%9F%BA%E7%A1%80)
 - [在Java中，你真的会日期转换吗](https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/%E5%9C%A8Java%E4%B8%AD%EF%BC%8C%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2%E5%90%97.md)
+- [聊聊ThreadlLocal和引用的那些事](https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/%E8%81%8A%E8%81%8A%E5%BC%95%E7%94%A8%E5%92%8CThreadlocal%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
+-[一个JIT激进优化引起的可见性误解]
+(https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%A0%B8%E5%BF%83%E5%B7%A5%E5%85%B7/%E4%B8%80%E4%B8%AAJIT%E6%BF%80%E8%BF%9B%E4%BC%98%E5%8C%96%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8F%AF%E8%A7%81%E6%80%A7%E8%AF%AF%E8%A7%A3.md)
 ### 3.1Java特性
 ### 3.2基本程序设计
 ### 3.3Java并发编程
 - [异步技巧之CompletableFuture](https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%A0%B8%E5%BF%83%E5%B7%A5%E5%85%B7/%E5%BC%82%E6%AD%A5%E6%8A%80%E5%B7%A7%E4%B9%8BCompletableFuture.md)
+- [你应该知道的乐观锁-高效控制线程安全的手段](https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%A0%B8%E5%BF%83%E5%B7%A5%E5%85%B7/%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E4%B9%90%E8%A7%82%E9%94%81-%E9%AB%98%E6%95%88%E6%8E%A7%E5%88%B6%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E6%89%8B%E6%AE%B5.md)
 ### 3.4JVM
 - [jvm内存区域详解](https://github.com/javagrowing/JGrowing/blob/master/Java%E5%9F%BA%E7%A1%80/JVM/JVM%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F%E8%AF%A6%E8%A7%A3.md)
 ## 4. [分析设计](https://github.com/javagrowing/JGrowing/tree/master/%E5%88%86%E6%9E%90%E8%AE%BE%E8%AE%A1)
@@ -70,18 +74,23 @@ JGrowing不是属于某个人的项目，而是属于组织项目。我的想法
 ## 7. 分布式
 ### 7.1中间件
 - [你应该知道的kafka](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/%E4%BD%A0%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84kafka.md)
-- [再有人问你分布式事务，这篇文章扔给他](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/%E5%86%8D%E6%9C%89%E4%BA%BA%E9%97%AE%E4%BD%A0%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%EF%BC%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%89%94%E7%BB%99%E4%BB%96.md)
-
 - [如果再有人问你分布式ID，这篇文章扔给他](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%A6%82%E6%9E%9C%E5%86%8D%E6%9C%89%E4%BA%BA%E9%97%AE%E4%BD%A0%E5%88%86%E5%B8%83%E5%BC%8F%20ID%EF%BC%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E4%B8%A2%E7%BB%99%E4%BB%96.md)
 - [如果再有人问你分布式锁,这篇文章扔给他](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%86%8D%E6%9C%89%E4%BA%BA%E9%97%AE%E4%BD%A0%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%EF%BC%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%89%94%E7%BB%99%E4%BB%96.md)
 - [谈谈数据一致性](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E8%B0%88%E8%B0%88%E6%95%B0%E6%8D%AE%E4%B8%80%E8%87%B4%E6%80%A7.md)
+#### 7.1.1分布式事务
+- [解密分布式事务框架-(Seata)Fescar](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/%E8%A7%A3%E5%AF%86%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A1%86%E6%9E%B6-Fescar.md)
+- [深度剖析一站式分布式事务方案Seata(Fescar)-Server](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90%E4%B8%80%E7%AB%99%E5%BC%8F%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%96%B9%E6%A1%88Seata(Fescar)-Server.md)
+- 深度剖析一站式分布式事务方案Seata-Client]
+(https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90%E4%B8%80%E7%AB%99%E5%BC%8F%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%96%B9%E6%A1%88Seata-Client.md)
+- [再有人问你分布式事务，这篇文章扔给他](https://github.com/javagrowing/JGrowing/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1/%E5%86%8D%E6%9C%89%E4%BA%BA%E9%97%AE%E4%BD%A0%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%EF%BC%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%89%94%E7%BB%99%E4%BB%96.md)
+
 ### 7.2批处理系统
 ### 7.3流处理系统
 ### 7.4搜索引擎
 ## 8. CaseStudy
 前车之鉴，后事之师。
 ### 如何排查问题
-- [解密阿里线上问题诊断工具Arthas和jvm-sandbox](https://github.com/javagrowing/JGrowing/blob/master/CaseStudy/%E6%8E%92%E6%9F%A5%E5%B7%A5%E5%85%B7/%E8%A7%A3%E5%AF%86%E9%98%BF%E9%87%8C%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E8%AF%8A%E6%96%AD%E5%B7%A5%E5%85%B7Arthas%E5%92%8Cjvm-sandbox)
+- [解密阿里线上问题诊断工具Arthas和jvm-sandbox](CaseStudy/排查工具/解密阿里线上问题诊断工具Arthas和jvm-sandbox.md)
 ### 常见问题案例
 - [记一次神奇的Mysql死锁排查](https://github.com/javagrowing/JGrowing/blob/master/CaseStudy/%E6%8E%92%E6%9F%A5%E6%A1%88%E4%BE%8B/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A5%9E%E5%A5%87%E7%9A%84Mysql%E6%AD%BB%E9%94%81%E6%8E%92%E6%9F%A5.md)
 
@@ -89,6 +98,7 @@ JGrowing不是属于某个人的项目，而是属于组织项目。我的想法
 ## 基础工具:
 ## [面试经验](https://github.com/javagrowing/JGrowing/tree/master/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C)：
 - [一道“史上最难”java面试题引发的线程安全思考](https://github.com/javagrowing/JGrowing/blob/master/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/%E4%B8%80%E9%81%93%E2%80%9C%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%9A%BE%E2%80%9Djava%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BC%95%E5%8F%91%E7%9A%84%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E6%80%9D%E8%80%83.md)
+- [你会这道阿里多线程面试题吗？](https://github.com/javagrowing/JGrowing/blob/master/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/%E4%BD%A0%E4%BC%9A%E8%BF%99%E9%81%93%E9%98%BF%E9%87%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%90%97%EF%BC%9F.md)
 ## 扩展阅读：
 有幸结识了一个群友，水平很厉害，他自己也对Java技能知识图谱有一定的总结：[Java服务端知识技能图谱](https://github.com/caison/java-knowledge-mind-map)
 ## 你的参与
